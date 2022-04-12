@@ -1,7 +1,3 @@
-const axios = require('./axios');
-const formatter = require('./formatter');
-
-module.exports = {
-    axios,
-    formatter
-}
+export { setup as axiosSetup } from './axios.js';
+export { getCommand, jsonMsg, markdownMsg } from './formatter.js';
+export { discordIdMetamobMap, getMetamobPseudo } from './metamob.js';

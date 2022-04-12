@@ -1,3 +1,1 @@
-const metamob = require('./metamob')
-
-module.exports = { metamob }
+export { krala, missing, zones, subzones } from './metamob.js';

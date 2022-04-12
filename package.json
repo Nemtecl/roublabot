@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Dofus bot for Discord",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -17,13 +18,13 @@
   },
   "homepage": "https://github.com/Nemtecl/roublabot#readme",
   "dependencies": {
-    "axios": "^0.21.1",
-    "discord.js": "^12.5.1",
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
     "dotenv": "^8.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "moment": "^2.29.1",
-    "nodemon": "^2.0.7"
-  },
-  "devDependencies": {
-    "eslint": "^7.19.0"
+    "nodemon": "^2.0.7",
+    "prettier": "^2.6.2"
   }
 }
